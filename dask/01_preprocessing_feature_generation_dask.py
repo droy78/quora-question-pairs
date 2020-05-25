@@ -243,7 +243,6 @@ df = df.compute()
 
 # [########################################] | 100% Completed | 21min 59.0s
 
-df = pd.read_pickle("df_quora_all_feat.pkl")
 df = dd.from_pandas(df, npartitions=1)
 
 
